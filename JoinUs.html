@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRTUOSO</title>
+    <style>
+        .head{
+            margin-top: -0.6%;
+            border-top: solid 25px #364825 ;
+            padding: 3% 2% 1% 4%;
+            background-color: #FBB901 ;
+            box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+        }
+        
+        .logo{
+            border-radius: 0%;
+            width:20%;
+            max-height:8% ;
+            border-radius: 1%;
+        }
+        .headButtons{
+            
+            float: right;
+            border-radius: 15%;
+            font-size: medium;
+            background-color: #fbd879;
+            padding: 10%;
+            border: solid 2.5px #364825;
+            
+        }
+        .headButton{
+            padding-left: 4%;
+            float: right;
+        }
+        
+        .teamInfo{
+            margin: 1% 1% 1% 1%; 
+            border-left: solid 20px #fbc205;
+            border-right: solid 4px #364825 ;
+            background-color: snow;
+            padding: 1%;
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+        }
+        
+        .courseInfo{
+            margin:  2% 1%;
+            border-top: solid 10PX #364825;
+            
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+            padding-bottom: 1.5%;
+        }
+        .aboutProgram{
+            margin:  2% 7%;    
+        }
+        .beginner{
+            border:solid 10px #fbc205;
+            border-style: outset;
+            background-color: #fbc205;
+            margin: 1% 25%;
+            height: 10%;
+            width: 40%;
+            padding: 0 5% 2% 5%;
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+        }
+        .intermediate{
+            border:solid 10px #fbc205;
+            border-style: outset;
+            background-color: #fbc205;
+            margin: 1% 25%;
+            height: 30%;
+            width: 40%;
+            padding: 0 5% 2% 5%;
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+        }
+        .grand{
+            border:solid 10px #dab12e;
+            border-style: outset;
+            background-color: #fbc205;
+            margin: 1% 25%;
+            margin-bottom: 3%;
+            height: 30%;
+            width: 40%;
+            padding: 0 5% 5% 5%;
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.24);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head"style="">
+            <!-- DIV Tag for Header-->
+            <div>
+                <!-- DIV Tag for logo and name-->
+                <img class="logo"src="F:\VIRTUOSO\images\virtuoso.png" 
+                alt="VIRTUOSO LOGO">
+                <h2 class="logoText" style="padding-left: -1%; color: #364825; font-family:Gill Sans, sans-serif "> <B></B>VIRTUOSO ABACUS AND AASANAS</h2>
+            </div>
+        </div>
+        <div style="padding-top: 1%; padding-right: 2%;padding-bottom: 2%;">
+
+            <div class="headButton">
+                <a href="F:\VIRTUOSO\Enquire.html"><button class="headButtons">Enquire</button></a>
+            </div>
+            <div class="headButton">
+                <a href=""><button class="headButtons">Student</button></a>
+            </div>
+            <div class="headButton">
+                <a href=""><button class="headButtons">Faculty</button></a>
+            </div>
+            <div class="headButton">
+                <a href="F:\VIRTUOSO\Branches.html"><button class="headButtons">Branches</button></a>
+            </div>
+            <div class="headButton">
+                <a href=""><button class="headButtons">Gallery</button></a>
+            </div>
+            <div class="headButton">
+                <a href="F:\VIRTUOSO\index.html.html"><button class="headButtons">Home</button></a>
+            </div>
+        </div>
+        
+        
+
+        <div class="Form" style="padding-left: 18%;padding-right: 18%;padding-top: 2%;">
+            <h3>Fill out the Registration Form...!</h3>
+            <style>
+                input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                }
+                
+                input[type=submit] {
+                width: 100%;
+                background-color: #364825;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                background-color: #c19c22;
+                }
+                
+                Form {
+                border-radius: 5px;
+                background-color: #fbd879;
+                padding: 20px;
+                }
+            </style>
+            
+            
+            
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="dob">DOB</label>
+                <input type="text" id="dob" name="lastname" placeholder="Your DOB..">
+
+                <label for="age">Age</label>
+                <input type="text" id="age" name="lastname" placeholder="Your age..">
+
+                <label for="class">Class</label>
+                <input type="text" id="class" name="lastname" placeholder="Your Class..">
+
+                <label for="school">School</label>
+                <input type="text" id="school" name="lastname" placeholder="Your School name..">
+
+                <label for="Fname">Father Name</label>
+                <input type="text" id="Fname" name="lastname" placeholder="Your Father name..">
+                
+                <label for="FOccupation">Father Occupation</label>
+                <input type="text" id="FOccupation" name="Occupation" placeholder="Your Father Occupation..">
+
+                <label for="Mname">Mother Name</label>
+                <input type="text" id="Mname" name="lastname" placeholder="Your Mother name..">
+
+                <label for="Moccu">Mother Occupation</label>
+                <input type="text" id="Moccu" name="Occupation" placeholder="Your Mother Occupation..">
+              
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+</body>
